@@ -1,0 +1,78 @@
+/* Estilos gerais */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Centraliza o conteúdo da página */
+body {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background-color: #f0f0f0; /* Cor de fundo */
+}
+
+/* Container principal */
+.container {
+    max-width: 600px; /* Largura máxima do container */
+    width: 100%; /* Largura total até o máximo definido */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #fff; /* Cor de fundo do container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para dar destaque */
+    border-radius: 10px; /* Cantos arredondados */
+    box-sizing: border-box; /* Inclui padding e borda no tamanho total */
+    margin: 20px; /* Margem para espaçamento */
+}
+
+/* Grupo de formulário */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Elementos do formulário */
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%; /* Largura completa do elemento */
+    padding: 10px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 5px; /* Cantos arredondados */
+    box-sizing: border-box; /* Inclui padding e borda no tamanho total */
+    margin-top: 5px; /* Espaçamento superior */
+}
+
+/* Botões */
+.btn {
+    display: inline-block; /* Exibição inline com suporte a padding e margem */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Cursor de ponteiro */
+    text-decoration: none; /* Remove sublinhado de links */
+    margin-right: 10px; /* Espaço entre botões */
+}
+
+/* Botão de sucesso (verde) */
+.btn-success {
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white; /* Cor do texto */
+}
+
+/* Botão secundário (cinza) */
+.btn-secondary {
+    background-color: #ccc; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+}
+
+/* Estilos para mensagens de sucesso */
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
